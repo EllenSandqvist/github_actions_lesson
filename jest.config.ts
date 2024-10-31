@@ -20,7 +20,7 @@ const config: Config = {
       statements: 80, // Minst 100% uttalande-täckning
     },
   },
-  // Lägg till andra Jest-inställningar här, om nödvändigt
+  // Lägg till andra Jest-inställningar här, om det är nödvändigt
 };
 
 export default config;
