@@ -14,9 +14,9 @@ const config: Config = {
   collectCoverage: true, // Aktivera kodtäckning
   coverageThreshold: {
     global: {
-      branches: 40, // Minst 100% branch-täckning
+      branches: 50, // Minst 100% branch-täckning
       functions: 40, // Minst 100% funktionstäckning
-      lines: 40, // Minst 100% linjetäckning
+      lines: 50, // Minst 100% linjetäckning
       statements: 40, // Minst 100% uttalande-täckning
     },
   },
