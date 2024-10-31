@@ -15,7 +15,7 @@ const config: Config = {
   coverageThreshold: {
     global: {
       branches: 80, // Minst 100% branch-täckning
-      functions: 40, // Minst 100% funktionstäckning
+      functions: 80, // Minst 100% funktionstäckning
       lines: 80, // Minst 100% linjetäckning
       statements: 40, // Minst 100% uttalande-täckning
     },
