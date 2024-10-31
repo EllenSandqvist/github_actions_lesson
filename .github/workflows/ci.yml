@@ -22,10 +22,19 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
+
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Install dependencies
     - run: npm ci
+    - name: Run ESlint
+    - run: npm run lint
+    - name: Format code 
+    - run: npm run lint:fix
+    - name: Run tests
+    - run: npm run test
+    # - run: npm run test:watch
     - run: npm run build --if-present
-    - run: npm test
+    
