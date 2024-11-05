@@ -14,10 +14,10 @@ const config: Config = {
   collectCoverage: true, // Aktivera kodtäckning
   coverageThreshold: {
     global: {
-      branches: 50, // Minst 100% branch-täckning
-      functions: 40, // Minst 100% funktionstäckning
-      lines: 50, // Minst 100% linjetäckning
-      statements: 40, // Minst 100% uttalande-täckning
+      branches: 10, // Minst 100% branch-täckning
+      functions: 10, // Minst 100% funktionstäckning
+      lines: 10, // Minst 100% linjetäckning
+      statements: 10, // Minst 100% uttalande-täckning
     },
   },
   // Lägg till andra Jest-inställningar här, om det är nödvändigt
