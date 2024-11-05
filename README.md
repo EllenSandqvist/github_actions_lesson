@@ -113,7 +113,7 @@ Här byggs projektet, om ett byggkommando är definierat. Detta steg säkerstäl
   run: npm run build --if-present
 
 ##### 4.5. Databasmigrering och Prisma-generate:
-Dessa steg hanterar databasen genom att köra Prisma-migreringar och generera Prisma-klienter. prisma:migrate migrerar databasen till den senaste strukturen, och postinstall kör prisma generate för att skapa klientkod. Detta säkerställer att databasstrukturen och Prisma-klienterna är uppdaterade.
+Dessa steg hanterar databasen genom att köra Prisma-migreringar och generera Prisma-klienter. prisma:migrate migrerar databasen till den senaste strukturen, och postinstall kör prisma generate för att skapa klientkod. Detta säkerställer att databasstrukturen och Prisma-klienterna är uppdaterade..
 
 - name: Run tests
   run: npm run test
